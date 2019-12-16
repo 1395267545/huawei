@@ -1,0 +1,147 @@
+.phone-nav {
+  width: 100%;
+  background: #fff; }
+  .phone-nav .layout {
+    width: 1200px;
+    margin: 0 auto; }
+    .phone-nav .layout .h {
+      padding-top: 10px;
+      line-height: 1.5; }
+    .phone-nav .layout .b {
+      width: 100%; }
+      .phone-nav .layout .b .cate-area {
+        border: 1px solid #999; }
+        .phone-nav .layout .b .cate-area h3 {
+          font-size: 12px;
+          color: #3a3a3a;
+          float: left;
+          width: 86px;
+          padding-top: 16px;
+          text-align: right; }
+        .phone-nav .layout .b .cate-area .cate-values {
+          float: left;
+          padding: 10px 0;
+          margin-left: 20px; }
+          .phone-nav .layout .b .cate-area .cate-values ul {
+            overflow: hidden;
+            height: 30px; }
+            .phone-nav .layout .b .cate-area .cate-values ul li {
+              float: left;
+              padding: 6px 0;
+              height: 18px;
+              margin-right: 20px; }
+              .phone-nav .layout .b .cate-area .cate-values ul li a {
+                color: #999;
+                font-size: 12px;
+                vertical-align: top; }
+                .phone-nav .layout .b .cate-area .cate-values ul li a span {
+                  display: block; }
+        .phone-nav .layout .b .cate-area .cate-attr {
+          border-bottom: 1px solid #999; }
+          .phone-nav .layout .b .cate-area .cate-attr .cate-all {
+            font-size: 12px;
+            color: #e01d20;
+            float: left;
+            padding: 16px 0 0 10px; }
+        .phone-nav .layout .b .cate-area .cate-sort .cate-values {
+          margin-left: 10px; }
+          .phone-nav .layout .b .cate-area .cate-sort .cate-values ul li.selected a {
+            color: #e01d20; }
+
+.phones {
+  width: 100%;
+  background: #fff; }
+  .phones .layout {
+    width: 1200px;
+    margin: 0 auto; }
+    .phones .layout .channel-list .pro-list {
+      width: 1220px;
+      padding-bottom: 20px; }
+      .phones .layout .channel-list .pro-list ul li {
+        float: left;
+        width: 20%; }
+        .phones .layout .channel-list .pro-list ul li .pro-panel {
+          margin: 0 20px 20px 0;
+          position: relative;
+          border: 1px solid #dedede;
+          height: 362px;
+          text-align: center;
+          overflow: hidden; }
+          .phones .layout .channel-list .pro-list ul li .pro-panel:hover {
+            border: 1px solid #e01d20; }
+          .phones .layout .channel-list .pro-list ul li .pro-panel .p-img {
+            padding: 38px 0 24px; }
+            .phones .layout .channel-list .pro-list ul li .pro-panel .p-img a img {
+              display: block;
+              margin: 0 auto;
+              width: 180px;
+              height: 180px; }
+          .phones .layout .channel-list .pro-list ul li .pro-panel .p-title {
+            height: 38px;
+            line-height: 16px; }
+            .phones .layout .channel-list .pro-list ul li .pro-panel .p-title a {
+              color: #666;
+              font-size: 12px; }
+          .phones .layout .channel-list .pro-list ul li .pro-panel .p-price {
+            line-height: 30px;
+            font-size: 18px;
+            color: #e01d20;
+            height: 50px; }
+          .phones .layout .channel-list .pro-list ul li .pro-panel .p-button {
+            width: 222px;
+            height: 31px;
+            line-height: 32px;
+            border-top: 1px solid #dedede;
+            text-align: center;
+            font-size: 12px; }
+            .phones .layout .channel-list .pro-list ul li .pro-panel .p-button a {
+              float: left;
+              width: 110px;
+              height: 100%;
+              color: #e01d20;
+              background: #fff;
+              border-right: 1px solid #dedede; }
+            .phones .layout .channel-list .pro-list ul li .pro-panel .p-button a:hover {
+              background: #e01d20;
+              color: #fff; }
+            .phones .layout .channel-list .pro-list ul li .pro-panel .p-button span {
+              float: left;
+              width: 111px; }
+    .phones .layout .channel-list .page-list {
+      width: 100%;
+      height: 31px;
+      position: relative; }
+      .phones .layout .channel-list .page-list ul {
+        float: right; }
+        .phones .layout .channel-list .page-list ul li.pgNext {
+          float: left;
+          width: 29px;
+          height: 29px;
+          border: 1px solid #dedede;
+          text-align: center;
+          line-height: 29px;
+          margin-left: 10px;
+          background: #fafafa;
+          color: #adadad;
+          font-weight: 100;
+          cursor: pointer; }
+        .phones .layout .channel-list .page-list ul li.pgNext:hover {
+          background: #3a3a3a;
+          color: #fff; }
+        .phones .layout .channel-list .page-list ul li.empty {
+          cursor: default; }
+        .phones .layout .channel-list .page-list ul li.empty:hover {
+          background: #fafafa;
+          color: #adadad; }
+      .phones .layout .channel-list .page-list a.page {
+        height: 30px;
+        line-height: 30px;
+        padding: 0 7px;
+        margin-left: 10px;
+        display: block;
+        float: left;
+        color: #666; }
+      .phones .layout .channel-list .page-list a.pgCurrent {
+        color: #ca151e; }
+      .phones .layout .channel-list .page-list a:hover {
+        color: #ca151e; }
